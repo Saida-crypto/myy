@@ -26,11 +26,6 @@ function tryAgain() {
     document.getElementById('screen2').classList.remove('hidden');
 }
 
-function showUsTogether() {
-    document.getElementById('screen4').classList.add('hidden');
-    document.getElementById('screen5').classList.remove('hidden');
-}
-
 function showDatePlan() {
     document.getElementById('screen5').classList.add('hidden');
     document.getElementById('screen6').classList.remove('hidden');
